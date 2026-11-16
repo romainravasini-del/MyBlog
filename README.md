@@ -16,3 +16,4 @@ pip install django python-dotenv
 python manage.py migrate
 python manage.py runserver
 ```
+
