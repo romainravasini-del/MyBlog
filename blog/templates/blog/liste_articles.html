@@ -13,7 +13,7 @@
 <ul>
     {% for article in articles %}
     <li>
-        <p><strong>{{ article.titre }}</strong> - {{ article.date_publication|date:"D M Y" }} - {{article.categorie}}
+        <p><strong>{{ article.titre }}</strong> - {{ article.date_publication|date:"d M Y" }} - {{article.categorie}}
         </p>
         <p>{{ article.contenu }}</p>
     </li>
